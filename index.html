@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stocks App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <script>
+      var serviceWorkerVersion = '{{flutter_service_worker_version}}';
+    </script>
+    <script src="flutter.js" defer></script>
+    <script>
+      FlutterLoader.load({entrypoint: 'main.dart.js'});
+    </script>
+    <noscript>
+      <p>Flutter apps require JavaScript to be enabled.</p>
+    </noscript>
+  </body>
+</html>
